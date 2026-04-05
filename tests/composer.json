@@ -1,0 +1,31 @@
+{
+    "name": "amestsantim/voucherator",
+    "description": "A generic PHP package that can generate all sorts of random voucher/coupon codes. Laravel compatible.",
+    "keywords": [
+        "amestsantim",
+        "voucherator",
+        "keygen",
+        "code",
+        "random"
+    ],
+    "homepage": "https://github.com/amestsantim/voucherator",
+    "authors": [{
+        "name": "Nahom Tamerat",
+        "email": "nahomt@amestsantim.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "AmestSantim\\Voucherator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Amestsantim\\Voucherator\\Tests\\Unit\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/collections": "8.*"
+    },
+    "license": "MIT"
+}
